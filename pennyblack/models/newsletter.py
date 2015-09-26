@@ -1,7 +1,7 @@
 # coding=utf-8
 import exceptions
 
-from django.conf.urls.defaults import patterns, url
+from django.conf.urls import patterns, url
 from django.core.exceptions import ImproperlyConfigured
 from django.contrib import admin
 from django.contrib.contenttypes.models import ContentType
